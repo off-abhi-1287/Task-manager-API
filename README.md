@@ -54,12 +54,3 @@ Tasks (Protected – require JWT token)
 Health Check
 - Health: GET /health  
   Check if the API is running
-
----
-
-Notes
-
-- JWT authentication is used for security  
-- bcrypt hashes passwords before saving  
-- .env contains sensitive info (MONGO_URI, JWT_SECRET) and should not be public  
-- Deployed on Render 🚀
